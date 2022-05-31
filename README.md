@@ -19,3 +19,5 @@ make compile-and-send
 ### getchars
 prints first bytes from file.
 If file is smaller than require number of bytes, program will print to stdout until the end of file.
+### charset
+
