@@ -11,7 +11,7 @@
 int main(int argc, char *argv[]) {
     if (argc < 3) {
         fprintf(stderr, "Usage: %s <FILE> <NUMBER>\n"
-                        "  prints first <NUMBER> bytes in <FILE>", argv[0]);
+                        "  prints first <NUMBER> bytes in <FILE>\n", argv[0]);
         return 1;
     }
     // Validating file

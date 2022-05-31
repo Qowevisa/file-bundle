@@ -20,4 +20,7 @@ make compile-and-send
 prints first bytes from file.
 If file is smaller than require number of bytes, program will print to stdout until the end of file.
 ### charset
-
+print set of bytes that is used in file.
+bytes are separated by ' ' char.
+**Options**
+ - -h : Hex.  Instead of unsigned value (0..255) hex variant will be printed (00..FF).
