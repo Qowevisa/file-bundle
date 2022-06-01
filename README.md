@@ -24,3 +24,5 @@ print set of bytes that is used in file.
 bytes are separated by ' ' char.
 **Options**
  - -h : Hex.  Instead of unsigned value (0..255) hex variant will be printed (00..FF).
+### fappend
+appends every argv at the end of file
