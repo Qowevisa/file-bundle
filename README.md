@@ -26,3 +26,7 @@ bytes are separated by ' ' char.
  - -h : Hex.  Instead of unsigned value (0..255) hex variant will be printed (00..FF).
 ### fappend
 appends every argv at the end of file
+### tab2spc
+change every '\t' char in file into the number of spaces that is declared in third argument.
+Program creates .\_\_\<FILE\>.tmp file in directory that will be renamed to second argument.
+If something went wrong temporal file should be deleted.
