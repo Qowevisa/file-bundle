@@ -10,12 +10,12 @@
 
 #define HEX "0123456789ABCDEF"
 
-#define print_c(c) {                                    \
-    if (state & hex) {                                  \
-        printf("%c%c", HEX[past>>4], HEX[past&15]);     \
-    } else {                                            \
-        printf("%u", past);                             \
-    }                                                   \
+#define print_c(c) {                            \
+    if (state & hex) {                          \
+        printf("%c%c", HEX[c>>4], HEX[c&15]);   \
+    } else {                                    \
+        printf("%u", c);                        \
+    }                                           \
 }
 
 enum options {
